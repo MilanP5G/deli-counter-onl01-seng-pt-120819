@@ -10,7 +10,7 @@ def line(array)
     counter = 1
     katz_deli.each {|number, name| other_deli << "#{number}. #{name}"}
     counter += 1
-  else katz_deli == 0
+  else
     puts "The line is currently empty."
   end
   
