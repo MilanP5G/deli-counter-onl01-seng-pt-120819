@@ -10,7 +10,7 @@ def line(katz_deli)
   else
     other_deli = "The line is currently: "
     katz_deli.each.with_index(1) do |customer, num| 
-      other_deli << "#{num}. #{customer}"
+      other_deli << " #{num}. #{customer}"
   end
     puts other_deli
   end
