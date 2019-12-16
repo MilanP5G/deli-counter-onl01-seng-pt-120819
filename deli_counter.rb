@@ -3,7 +3,7 @@
 
 katz_deli = []
 
-def line(array)
+def line(katz_deli)
   
   if katz_deli >= 1
     other_deli = ["The line is currently: "]
