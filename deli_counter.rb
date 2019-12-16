@@ -4,10 +4,10 @@
 katz_deli = []
 
 def line(array)
-  
-  if array.length >= 1
+  other_deli = "The line is currently:"
+  if other_deli.length >= 1
     counter = 1
-    array.each {|index, name| puts "The line is currently: #{counter}. #{name}"}
+    other_deli.each {|index, name| other_deli << "#{counter}. #{name}"}
     counter += 1
   else 
     puts "The line is currently empty."
