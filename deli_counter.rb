@@ -5,13 +5,14 @@ katz_deli = []
 
 def line(katz_deli)
   
-  if array >= 1
-    other_deli = ["The line is currently: "]
-    counter = 1
-    katz_deli.each {|name, number| other_deli << "#{counter}. #{name}"}
-    counter += 1
-  else
+  if katz_deli.size == 0
     puts "The line is currently empty."
+  else
+    other_deli = "The line is currently:"
+    katz_deli.each.with_index(1) do |customer, n|
+      other_deli << " #{n}. #{customer}"
+    end
+    puts other_deli
   end
   
 end 
