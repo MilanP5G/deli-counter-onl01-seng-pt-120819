@@ -7,9 +7,11 @@ def line(array)
   
   if katz_deli == 0
     puts "The line is currently empty."
-  else 
+  else katz_deli >= 1
     other_deli = ["The line is currently: "]
-    katz_deli.each_with_index(1) {|number, name| other_deli << "#{number}. #{name}"}
+    counter = 1
+    katz_deli.each {|number, name| other_deli << "#{number}. #{name}"}
+    counter += 1
   end
   
 end 
