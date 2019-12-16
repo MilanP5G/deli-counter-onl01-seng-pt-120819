@@ -9,8 +9,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     other_deli = "The line is currently:"
-    katz_deli.each.with_index(1) do |number, customer|
-      other_deli << " #{number}. #{customer}"
+    katz_deli.each.with_index(1) do |num, customer|
+      other_deli << " #{num}. #{customer}"
     end
     puts other_deli
   end
