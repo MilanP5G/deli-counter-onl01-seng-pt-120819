@@ -19,6 +19,9 @@ end
 
 def take_a_number(array, name)
   
+  katz_deli << name
+  puts "Welcome, #{name}. You are number #{num} in line."
+  
 end
 
 def now_serving(array)
