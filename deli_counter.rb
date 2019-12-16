@@ -10,7 +10,7 @@ def line(array)
   else 
     other_deli = ["The line is currently:"]
 
-    katz_deli.each_with_index(1) {|index, name| other_deli << "#{counter}. #{name}"}
+    katz_deli.each_with_index(1) {|customer, name| other_deli << "#{counter}. #{name}"}
     counter += 1
   else 
     puts "The line is currently empty."
