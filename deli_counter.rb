@@ -5,7 +5,7 @@ katz_deli = []
 
 def line(katz_deli)
   
-  if katz_deli >= 1
+  if array >= 1
     other_deli = ["The line is currently: "]
     counter = 1
     katz_deli.each {|name, number| other_deli << "#{counter}. #{name}"}
