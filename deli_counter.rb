@@ -7,7 +7,7 @@ def line(array)
   
   if array.length >= 1
     counter = 1
-    array.each {|counter, name| puts "The line is currently: #{counter}. #{name}"}
+    array.each {|index, name| puts "The line is currently: #{counter}. #{name}"}
     counter += 1
   else 
     puts "The line is currently empty."
