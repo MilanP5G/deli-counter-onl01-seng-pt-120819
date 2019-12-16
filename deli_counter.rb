@@ -8,7 +8,7 @@ def line(katz_deli)
   if katz_deli >= 1
     other_deli = ["The line is currently: "]
     counter = 1
-    katz_deli.each {|number, name| other_deli << "#{number}. #{name}"}
+    katz_deli.each {|name, number| other_deli << "#{number}. #{name}"}
     counter += 1
   else
     puts "The line is currently empty."
